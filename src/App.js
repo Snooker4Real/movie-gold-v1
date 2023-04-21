@@ -20,7 +20,7 @@ function App() {
         try
         {
 
-            const response = await api.get("/api/v1/movies");
+            const response = await api.get("/api/v1/movies/ten");
 
             setMovies(response.data);
 
